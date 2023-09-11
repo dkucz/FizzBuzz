@@ -11,7 +11,7 @@ class FizzBuzz {
         }
     }
 
-    private static int doFizzBuzz(int i) {
+    public static int doFizzBuzz(int i) {
         boolean divisibleByThree = i % 3 == 0;
         boolean divisibleByFive = i % 5 == 0;
 
